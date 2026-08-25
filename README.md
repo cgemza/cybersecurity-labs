@@ -45,4 +45,5 @@ Areas of study include security foundations, network security, Linux, SQL, threa
 ---
 
 *This repository contains my own notes and documentation of skills practiced during coursework. It is intended to demonstrate my technical learning and does not reproduce course assessments or proprietary lab materials.*
+
 *AI-assisted tools were used for documentation and formatting efficiency. All technical work, project implementation, and underlying code represent my own hands-on work.*
