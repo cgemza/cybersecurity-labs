@@ -1,4 +1,5 @@
-Linux File, Directory, and User Management
+# Linux File, Directory, and User Management
+**Google Cybersecurity Professional Certificate — Linux Lab**
 ## Overview
 
 This lab documents Linux command-line skills practiced while completing the Google Cybersecurity Professional Certificate.
