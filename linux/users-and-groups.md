@@ -43,4 +43,36 @@ ls /home/scientist/projects
 sudo chown scientist1 /home/scientist/projects/project_11.txt
 sudo userdel scientist1
 
+## Decrypt a Cipher Using a Translation Command
+
+Use the `tr` command to translate characters and decrypt the contents of a file.
+
+```bash
+cat .hiddenFile3 | tr "d-za-cD-ZA-D" "a-zA-Z"
+```
+
+The `cat` command displays the contents of the hidden file, while `tr` translates the specified characters to reveal the decrypted text.
+
+---
+
+## Generate Hashes to Compare Two Files
+
+View the contents of each file:
+
+```bash
+cat file1.txt
+cat file2.txt
+```
+
+Generate a SHA-256 hash for each file:
+
+```bash
+sha256sum file1.txt
+sha256sum file2.txt
+```
+
+The `sha256sum` command generates a SHA-256 hash based on the contents of each file.
+
+- If the hashes are identical, the files contain the same data.
+- If the hashes are different, the files contain different data.
 ```
