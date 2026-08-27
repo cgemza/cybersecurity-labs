@@ -50,4 +50,12 @@ cat file1.txt
 cat file2.txt
 sha256sum file1.txt
 sha256sum file2.txt
+
+# Use tcpdump to capture and analyze live network traffic
+sudo ifconfig
+sudo tcpdump -D
+sudo tcpdump -i eth0 -v -c 5
+
+# Capture packet data and save it to a file
+sudo tcpdump -i eth0 -nn -c 9 port 80 -w capture.pcap &
 ```
